@@ -1,0 +1,19 @@
+.bg-container {
+  color: #f8fafc;
+  background-color: #0f172a;
+  text-align: center;
+  font-family: "Roboto";
+  padding: 60px;
+}
+
+.container {
+  margin: 20px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
